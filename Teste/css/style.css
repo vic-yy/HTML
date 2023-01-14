@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: aqua;
+    font-size: 21px;
+}
+
+
+p{
+    color: brown;
+}
+
+h1 {
+    font-size: 50px;
+    color: red;
+}
+
+div {
+    background-color: pink;
+    color: brown;
+}
+#top{
+    background-color: blue;
+}
+.intro{
+    background-color: darkgoldenrod;
+}
+
+#mid{
+    background-color: aqua;
+}
+
+.name{
+    background-color: yellow;
+}
+
+.completo{
+    background-color: greenyellow;
+}
+
+a{
+    /* a is used to change the color of links */
+    color: green;
+    text-decoration: none;
+}
+
+a:visited{
+    /* this one is used to changed the color of links that has already been visited */
+    color: purple;
+}
+
+a:hover{
+    /* this one changes the color when the mouse passes on the link */
+    color: yellow;
+}
+
+a:active{
+    color: blue;
+}
+
+/* Changes the color of the link to yellow when the mouse clicks  the link */

@@ -1,0 +1,66 @@
+body {
+    background-image: url(../img/teste.jfif);
+    font-size: 21px;
+}
+
+
+
+h1 {
+    font-size: 50px;
+    color: red;
+}
+
+
+p{
+    color: brown;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    float: left;
+    
+}
+.box1{
+    background-color: pink;
+}
+
+.box2{
+    background: rgba(255, 255, 0, .5);
+}
+
+.box3{
+    background-color: brown;
+    
+    /* clear: both; */
+    /* Adding clear the float is not applied to this box */
+}
+
+.box4{
+    background-color: orange;
+}
+
+.box5{
+    background-color: yellow;
+}
+
+.box6{
+    background-color: greenyellow;
+}
+
+.box7{
+    background-color: green;
+}
+
+.box8{
+    background: hsl(150, 50%, 40%);
+}
+
+.box9{
+    background-color: rgba(0, 150, 255, .25);
+}
+
+.box10{
+    background-color: white;
+}
+

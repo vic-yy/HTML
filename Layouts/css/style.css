@@ -1,0 +1,48 @@
+body{
+    background-image: url(../img/shiba.jfif);
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    font-size: 18px;
+    color: white;
+    margin: 0px;
+    background-position: left;
+    background-size: cover;
+}
+
+
+header{
+    background-color: rgba(255, 255, 255, 0.754);
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: rgb(193, 125, 0);
+    text-transform: uppercase;
+}
+
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section{
+    float: left;
+    width: 70%;
+    padding: 100px 0;
+    /* This is 70% of the container */
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding: 100px 0;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px 0 50px 0;
+    text-align: center;
+    
+    clear:both;
+    
+}

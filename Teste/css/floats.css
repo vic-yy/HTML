@@ -1,0 +1,78 @@
+body {
+    color: red;
+    font-size: 21px;
+}
+
+
+
+h1 {
+    font-size: 50px;
+    color: red;
+}
+
+
+p{
+    color: brown;
+}
+
+.box1{
+    background-size:contain;
+    background-position: center;
+    background-color: aquamarine;
+
+    width: 1300px;
+
+    margin: 10px;
+    margin-top: 00px;
+
+    border: 2px solid red;
+    /* border-color:aquamarine; */
+    border-style: dashed;
+
+    padding: 10px;
+    /* By default padding with 2 sizes referes to top-bottom, 
+    3 sizes refers to top-down-sides
+    and 4 sizes referss to top-right-down-left */
+}
+
+/* The Css box model */
+/* 
+Margin: empty space around my elements
+border: border/ stroke around elements
+padding: empty space with background around my elements
+
+All of these add on the widht and height
+*/
+
+/* 
+.box2{
+    background-color: blueviolet;
+    width: 1300px;
+
+
+    margin: 50px;
+    border: 3px solid red ;
+    border-style: dotted;
+
+    padding: 10px;
+} */
+
+
+.red-box{
+    width: 500px;
+    background: rgba(255, 0, 0, .5);
+    float: left;
+
+}
+
+.blue-box{
+    width: 500px;
+    background: blue;
+    float: left;
+    
+}
+
+img{
+    float: left;
+    margin-right: 30px;
+}

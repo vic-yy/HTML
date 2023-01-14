@@ -1,0 +1,59 @@
+body {
+    background-image: url(../img/teste.jfif);
+    color: red;
+    font-size: 21px;
+}
+
+
+
+h1 {
+    font-size: 50px;
+    color: red;
+}
+
+
+p{
+    color: brown;
+}
+
+.box1{
+    background-image: url(../img/teste.jfif);
+    background-size:contain;
+    background-position: center;
+    background-color: aquamarine;
+
+    width: 1300px;
+
+    margin: 50px;
+    margin-top: 100px;
+
+    border: 2px solid red;
+    /* border-color:aquamarine; */
+    border-style: dashed;
+
+    padding: 10px;
+    /* By default padding with 2 sizes referes to top-bottom, 
+    3 sizes refers to top-down-sides
+    and 4 sizes referss to top-right-down-left */
+}
+
+/* The Css box model */
+/* 
+Margin: empty space around my elements
+border: border/ stroke around elements
+padding: empty space with background around my elements
+
+All of these add on the widht and height
+*/
+
+.box2{
+    background-color: blueviolet;
+    width: 1300px;
+
+
+    margin: 50px;
+    border: 3px solid red ;
+    border-style: dotted;
+
+    padding: 10px;
+}
